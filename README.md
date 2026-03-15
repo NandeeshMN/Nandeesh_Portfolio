@@ -39,6 +39,6 @@ This portfolio is designed with modern UI principles, responsiveness, and smooth
 
 If you'd like to collaborate or discuss opportunities, feel free to reach out.
 
-📧 Email: *nandeeshmn.mca@gmail.com*
-💼 LinkedIn: *https://www.linkedin.com/in/nandeeshmn/*
-💻 GitHub: *https://github.com/NandeeshMN/*
+- 📧 Email: *nandeeshmn.mca@gmail.com*
+- 💼 LinkedIn: *https://www.linkedin.com/in/nandeeshmn/*
+- 💻 GitHub: *https://github.com/NandeeshMN/*
