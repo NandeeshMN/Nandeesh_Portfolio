@@ -1,16 +1,44 @@
-# React + Vite
+# Nandeesh M N - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio repository.
+MCA student with hands-on experience in Python, full stack web development, and desktop application development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+This portfolio is designed with modern UI principles, responsiveness, and smooth interactions:
+ - **Modern Animated UI :** A visually engaging interface with smooth animations and modern UI elements that provide a clean and professional user experience.
+ - **Education & Experience Section :** A structured timeline that highlights my **education, learning journey, and professional development**.
+ - **Project Showcase :** Interactive project cards displaying my **projects, technologies used, and key achievements**.
+ - **Certificates & Achievements :** A dedicated section to showcase my **certifications, courses, and recognitions**.
+ - **Dark / Light Theme :** Supports **system-aware theme switching** with smooth transitions between **Dark Mode and Light Mode**.
+ - **Fully Responsive Design:** Optimized for **desktop, tablet, and mobile devices** to ensure a seamless user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework**: React + Vite
+
+- **Styling**: Tailwind CSS
+
+- **Animations**: Framer Motion
+
+- **Icons** :React Icons
+
+- **Deployment**: Optimized for static deployment on platforms like:
+  - GitHub Pages
+  - Vercel
+
+
+---
+
+
+## 📬 Contact
+
+If you'd like to collaborate or discuss opportunities, feel free to reach out.
+
+📧 Email: *nandeeshmn.mca@gmail.com*
+💼 LinkedIn: *https://www.linkedin.com/in/nandeeshmn/*
+💻 GitHub: *https://github.com/NandeeshMN/*
