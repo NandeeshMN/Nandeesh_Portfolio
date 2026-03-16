@@ -9,9 +9,9 @@ export const portfolioData = {
       github: "https://github.com/NandeeshMN/",
       linkedin: "https://www.linkedin.com/in/nandeeshmn/"
     },
-    lookingFor: "A software development role where I can apply my skills in full-stack development and Python programming to build impactful applications, collaborate with experienced developers, and continuously improve through real-world problem solving.",
-    preferredWork: "Building Web Applications, Backend APIs, Data Science Solutions & Cloud-Based Systems",
-    strength: "Building and Delivering Practical Software Solutions"
+    lookingFor: "A software development role where I can apply my skills in web development and Python programming to build impactful applications, collaborate with experienced developers, and continuously improve through real-world problem solving.",
+    preferredWork: "Building Web Applications, Machine Learning based Applications.",
+    strength: "Building and Delivering Practical Software Solutions."
   },
   skills: [
     "Python",
