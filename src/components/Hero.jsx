@@ -133,7 +133,7 @@ const Hero = () => {
                 <img 
                   src={MyProfile} 
                   alt={portfolioData.personalInfo.name} 
-                  className="w-full h-full object-cover object-center rounded-full"
+                  className="w-full h-full object-cover object-[50%_10%] rounded-full"
                 />
               </div>
             </div>
