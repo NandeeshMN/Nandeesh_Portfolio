@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-scroll';
 import { portfolioData } from '../data/portfolioData';
-import MyProfile from "../assets/my_photo_new.png";
+import MyProfile from "../assets/profile.png";
 
 const Hero = () => {
   const { name, role, shortIntroduction, contact } = portfolioData.personalInfo;
