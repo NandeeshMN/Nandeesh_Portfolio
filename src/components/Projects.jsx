@@ -20,6 +20,12 @@ import Trans07 from "../assets/transport-07.png";
 import Trans08 from "../assets/transport-08.png";
 import Trans09 from "../assets/transport-09.png";
 
+// Import images for College Chatbot
+import Clg1 from "../assets/clg1.png";
+import Clg2 from "../assets/clg2.png";
+import Clg3 from "../assets/clg3.png";
+import Clg4 from "../assets/clg4.png";
+
 // Image Carousel Component for Project Cards
 const ProjectCarousel = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -87,6 +93,12 @@ const Projects = () => {
       return {
         ...project,
         images: [Trans01, Trans02, Trans03, Trans04, Trans05, Trans06, Trans07, Trans08, Trans09]
+      };
+    }
+    if (project.title === "College Website with Chatbot Portal") {
+      return {
+        ...project,
+        images: [Clg1, Clg2, Clg3, Clg4]
       };
     }
     return project;

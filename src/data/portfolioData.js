@@ -64,6 +64,28 @@ export const portfolioData = {
       ],
       githubLink: "https://github.com/NandeeshMN/Car_Dent_Detection",
       demoLink: "#"    // placeholder
+    },
+    {
+      title: "College Website with Chatbot Portal",
+      badge: "",
+      technologies: ["React.js", "Vite", "Node.js", "Express.js", "MySQL", "JWT", "Bcrypt"],
+      description: "Intelligent college information system with chatbot integration that provides instant responses for admissions, courses, fees, placements, and campus-related queries while reducing manual navigation effort.",
+      features: [
+        "AI chatbot integration for instant query responses",
+        "Dynamic admin dashboard for chatbot & advertisement management",
+        "Secure admin authentication using JWT and bcrypt",
+        "Fully responsive design for desktop, tablet, and mobile devices",
+        "Dynamic advertisement system with conditional URL rendering",
+        "Real-time chatbot response management without code modification"
+      ],
+      images: [
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=College+Chatbot+1",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=College+Chatbot+2",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=College+Chatbot+3",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=College+Chatbot+4"
+      ],
+      githubLink: "https://github.com/NandeeshMN/College_Chatbot.git",
+      demoLink: "#"
     }
   ],
   certifications: {
