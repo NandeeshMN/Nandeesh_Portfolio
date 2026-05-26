@@ -28,7 +28,6 @@ This portfolio is designed with modern UI principles, responsiveness, and smooth
 - **Icons** :React Icons
 
 - **Deployment**: Optimized for static deployment on platforms like:
-  - GitHub Pages
   - Vercel
 
 
@@ -40,6 +39,6 @@ This portfolio is designed with modern UI principles, responsiveness, and smooth
 If you'd like to collaborate or discuss opportunities, feel free to reach out.
 
 - 📧 Email: *nandeeshmn.mca@gmail.com*
-- 💼 LinkedIn: *https://www.linkedin.com/in/nandeeshmn/*
+- 💼 LinkedIn:*https://www.linkedin.com/in/nandeeshmn/*
 - 💻 GitHub: *https://github.com/NandeeshMN/*
 - 🌐 Portfolio : *https://nandeeshmn.vercel.app/*
