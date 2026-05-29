@@ -1,7 +1,7 @@
 # Nandeesh M N - Portfolio
 
 Welcome to my personal portfolio repository.
-MCA student with hands-on experience in Python, full stack web development, and desktop application development.
+MCA student with hands-on experience in Python,full stack web development, and desktop application development.
 
 ---
 **Live Portfolio**: https://nandeeshmn.vercel.app/
