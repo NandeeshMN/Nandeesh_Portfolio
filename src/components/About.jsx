@@ -50,7 +50,7 @@ const About = () => {
             className="grid grid-cols-1 sm:grid-cols-2 gap-6"
           >
             <div className="glass-panel p-6 rounded-2xl flex flex-col justify-center transition-transform hover:-translate-y-2 duration-300">
-              <h3 className="text-4xl font-bold text-accent mb-2">2</h3>
+              <h3 className="text-4xl font-bold text-accent mb-2">4</h3>
               <p className="text-sm text-text-muted uppercase tracking-wider font-medium">Core Projects</p>
             </div>
 
