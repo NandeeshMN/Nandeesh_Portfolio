@@ -86,6 +86,31 @@ export const portfolioData = {
       ],
       githubLink: "https://github.com/NandeeshMN/College_Chatbot.git",
       demoLink: "#"
+    },
+    {
+      title: "KMA Editorial & Publication Management Portal",
+      badge: "",
+      technologies: ["React", "Node.js", "Express", "Firebase", "Firestore", "Tailwind CSS"],
+      description: "A full-stack academic journal management system for the Bulletin of Kerala Mathematical Association (BKMA) that streamlines manuscript submission, peer review, editorial decisions, and publication workflows.",
+      features: [
+        "Multi-role dashboards for Admin, Author, Reviewer, and Reader",
+        "End-to-end manuscript submission and peer-review workflow",
+        "Bulk publishing with Volume, Issue, Month-Year, and ISSN metadata",
+        "Real-time notification system with badge synchronization",
+        "Reviewer assignment with deadline tracking and reminder notifications",
+        "Secure onboarding with email-based credential delivery",
+        "Journal subscription management for readers and members",
+        "Subscription-based access to publication archives and updates",
+        "Responsive editorial dashboard and publication archive management"
+      ],
+      images: [
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=KMA+Editorial+1",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=KMA+Editorial+2",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=KMA+Editorial+3",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=KMA+Editorial+4"
+      ],
+      githubLink: "#",
+      demoLink: "https://bkma.in/"
     }
   ],
   certifications: {

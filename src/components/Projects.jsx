@@ -21,10 +21,20 @@ import Trans08 from "../assets/transport-08.png";
 import Trans09 from "../assets/transport-09.png";
 
 // Import images for College Chatbot
-import Clg1 from "../assets/clg1.png";
-import Clg2 from "../assets/clg2.png";
-import Clg3 from "../assets/clg3.png";
-import Clg4 from "../assets/clg4.png";
+import Clg1 from "../assets/cl1.png";
+import Clg2 from "../assets/cl2.png";
+import Clg3 from "../assets/cl3.png";
+import Clg4 from "../assets/cl4.png";
+
+// Import images for KMA Editorial
+import Bkma1 from "../assets/bkma1.png";
+import Bkma2 from "../assets/bkma2.png";
+import Bkma3 from "../assets/bkma3.png";
+import Bkma4 from "../assets/bkma4.png";
+import Bkma5 from "../assets/bkma5.png";
+import Bkma6 from "../assets/bkma6.png";
+import Bkma7 from "../assets/bkma7.png";
+import Bkma8 from "../assets/bkma8.png";
 
 // Image Carousel Component for Project Cards
 const ProjectCarousel = ({ images, title }) => {
@@ -99,6 +109,12 @@ const Projects = () => {
       return {
         ...project,
         images: [Clg1, Clg2, Clg3, Clg4]
+      };
+    }
+    if (project.title === "KMA Editorial & Publication Management Portal") {
+      return {
+        ...project,
+        images: [Bkma1, Bkma2, Bkma3, Bkma4, Bkma5, Bkma6, Bkma7, Bkma8]
       };
     }
     return project;
@@ -185,25 +201,29 @@ const Projects = () => {
                   )}
                   
                   <div className="flex gap-4 mt-auto">
-                    <a
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2 px-6 py-2.5 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:bg-white/10 text-light font-medium rounded-full border border-black/10 dark:border-white/10 transition-colors"
-                    >
-                      <Github size={18} />
-                      <span>GitHub</span>
-                    </a>
+                    {project.githubLink && project.githubLink !== "#" && (
+                      <a
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-6 py-2.5 bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:bg-white/10 text-light font-medium rounded-full border border-black/10 dark:border-white/10 transition-colors"
+                      >
+                        <Github size={18} />
+                        <span>GitHub</span>
+                      </a>
+                    )}
                     
-                    <a
-                      href={project.demoLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2 px-6 py-2.5 bg-accent/10 hover:bg-accent/20 text-accent font-medium rounded-full border border-accent/20 transition-colors hidden"
-                    >
-                      <ExternalLink size={18} />
-                      <span>Live</span>
-                    </a>
+                    {project.demoLink && project.demoLink !== "#" && (
+                      <a
+                        href={project.demoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-6 py-2.5 bg-accent/10 hover:bg-accent/20 text-accent font-medium rounded-full border border-accent/20 transition-colors"
+                      >
+                        <ExternalLink size={18} />
+                        <span>Live Demo</span>
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.div>
