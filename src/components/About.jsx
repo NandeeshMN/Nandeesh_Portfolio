@@ -31,7 +31,7 @@ const About = () => {
             className="flex flex-col justify-center space-y-6"
           >
             <p className="text-lg text-text-muted leading-relaxed text-justify">
-              Hello! I'm <span className="text-light font-medium">Nandeesh MN</span>, a motivated MCA student from Chetan Business School. My journey in technology is driven by a strong passion for Python development, web technologies, and machine learning.
+              Hello! I'm <span className="text-light font-medium">Nandeesh MN</span>, a motivated MCA graduate from Chetan Business School. My journey in technology is driven by a strong passion for Python development, web technologies, and machine learning.
             </p>
             <p className="text-lg text-text-muted leading-relaxed text-justify">
               I like working on practical projects that help me understand how technology can solve real-world problems. I have experience working with technologies such as Python, HTML, CSS, JavaScript, and basic database concepts. These skills help me develop simple and user-friendly applications.

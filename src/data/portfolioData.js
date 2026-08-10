@@ -1,8 +1,8 @@
 export const portfolioData = {
   personalInfo: {
     name: "Nandeesh MN",
-    role: "MCA Student | Web Developer",
-    shortIntroduction: "MCA student with hands-on experience in Python, full stack web development, and desktop application development.",
+    role: "MCA Graduate | Web Developer",
+    shortIntroduction: "MCA graduate with hands-on experience in Python, full stack web development, and desktop application development.",
     contact: {
       phone: "+91 8105059806",
       email: "nandeeshmn.mca@gmail.com",
@@ -173,7 +173,7 @@ export const portfolioData = {
   ],
   education: [
     {
-      degree: "MCA (Currently Pursuing)",
+      degree: "Master of Computer Application",
       institution: "Chetan Business School",
       duration: "Present"
     },
