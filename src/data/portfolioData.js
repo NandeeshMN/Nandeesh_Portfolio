@@ -111,6 +111,36 @@ export const portfolioData = {
       ],
       githubLink: "#",
       demoLink: "https://bkma.in/"
+    },
+    {
+      title: "AptiGuard – Secure Aptitude Assessment & Proctoring System",
+      badge: "",
+      technologies: ["React", "TypeScript", "Node.js", "Express", "Firebase", "Firestore", "Firebase Auth", "Brevo", "Tailwind CSS"],
+      description: "A full-stack online aptitude assessment platform for colleges that streamlines test creation, scheduling, student assignment, secure test-taking, monitoring, and result management.",
+      features: [
+        "Role-based Admin and Student dashboards",
+        "Secure full-screen aptitude testing",
+        "Violation detection and warning system",
+        "Automatic submission after repeated violations",
+        "Test scheduling and student assignment",
+        "Accurate late-joiner time calculation",
+        "Real-time test status synchronization",
+        "Automated email notifications",
+        "Student attempt and submission tracking",
+        "PDF and PNG result generation",
+        "Secure student/admin data management",
+        "Responsive assessment dashboards"
+      ],
+      images: [
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=AptiGuard+1",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=AptiGuard+2",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=AptiGuard+3",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=AptiGuard+4",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=AptiGuard+5",
+        "https://placehold.co/800x500/1a1a1a/ffffff?text=AptiGuard+6"
+      ],
+      githubLink: "#",
+      demoLink: "https://apti-gaurd.vercel.app/"
     }
   ],
   certifications: {

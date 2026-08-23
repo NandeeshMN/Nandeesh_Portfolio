@@ -36,6 +36,14 @@ import Bkma6 from "../assets/bkma6.png";
 import Bkma7 from "../assets/bkma7.png";
 import Bkma8 from "../assets/bkma8.png";
 
+// Import images for AptiGuard
+import Apti1 from "../assets/apti1.png";
+import Apti2 from "../assets/apti2.png";
+import Apti3 from "../assets/apti3.png";
+import Apti4 from "../assets/apti4.png";
+import Apti5 from "../assets/apti5.png";
+import Apti6 from "../assets/apti6.png";
+
 // Image Carousel Component for Project Cards
 const ProjectCarousel = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -115,6 +123,12 @@ const Projects = () => {
       return {
         ...project,
         images: [Bkma1, Bkma2, Bkma3, Bkma4, Bkma5, Bkma6, Bkma7, Bkma8]
+      };
+    }
+    if (project.title === "AptiGuard – Secure Aptitude Assessment & Proctoring System") {
+      return {
+        ...project,
+        images: [Apti1, Apti2, Apti3, Apti4, Apti5, Apti6]
       };
     }
     return project;
