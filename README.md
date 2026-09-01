@@ -1,6 +1,6 @@
 # Nandeesh M N - Portfolio
 
-Welcome to my personal portfolio repository.
+Welcome to my personal portfolio.
 I am Nandeesh a MCA graduate with hands-on experience in Python, full stack development, web development, and desktop application development.
 
 ---
