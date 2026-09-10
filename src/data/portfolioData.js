@@ -203,19 +203,32 @@ export const portfolioData = {
   ],
   education: [
     {
-      degree: "Master of Computer Application",
-      institution: "Chetan Business School",
-      duration: "Present"
+      degree: "SSLC (2019)",
+      institution: "RTES Public School, Ranebennur",
+      location: "Ranebennur",
+      year: "2019",
+      badge: "SCHOOL"
     },
     {
-      degree: "BCA",
-      institution: "KLE BCA College Dharwad",
-      duration: "Completed"
+      degree: "MCA (Master of Computer Application)",
+      institution: "Chetan Business School, Hubli",
+      location: "Hubli / Dharwad",
+      year: "Present",
+      badge: "CURRENT"
     },
     {
-      degree: "PUC",
-      institution: "RTES PU College Ranebennur",
-      duration: "Completed"
+      degree: "PUC (2021)",
+      institution: "RTES PU College, Ranebennur",
+      location: "Ranebennur",
+      year: "2021",
+      badge: "PUC"
+    },
+    {
+      degree: "BCA (2024)",
+      institution: "KLE BCA College, Dharwad",
+      location: "Hubli / Dharwad",
+      year: "2024",
+      badge: "GRADUATE"
     }
   ]
 };
