@@ -5,6 +5,7 @@ import LetterModal from './LetterModal';
 
 // Import local assets
 import Appreciation from "../assets/appreciation.png";
+import Kerala from "../assets/Kerala.png";
 import AIML from "../assets/AI&ML.png";
 import FullStack from "../assets/fullstack.png";
 import Hackathon from "../assets/hackathon.png";
@@ -25,7 +26,8 @@ const Certifications = () => {
 
   // Map local images to the data
   const updatedAchievements = achievements.map(item => {
-    if (item.title.includes("Client Appreciation")) return { ...item, image: Appreciation };
+    if (item.title.includes("Kerala") || item.organization.includes("Kerala")) return { ...item, image: Kerala };
+    if (item.title.includes("Transport") || item.organization.includes("Transport") || item.title.includes("Client Appreciation")) return { ...item, image: Appreciation };
     return item;
   });
 
@@ -78,7 +80,7 @@ const Certifications = () => {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <span className="text-white text-sm font-bold bg-accent/80 px-4 py-2 rounded-full backdrop-blur-sm transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">

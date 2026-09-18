@@ -145,7 +145,13 @@ export const portfolioData = {
   ],
   certifications: {
     achievements: [
-
+      {
+        title: "Certificate of Appreciation – Kerala Mathematics Association",
+        organization: "Kerala Mathematics Association",
+        year: "2026",
+        badge: "Client Appreciation",
+        image: "https://placehold.co/600x450/1a1a1a/ffffff?text=KMA+Appreciation"
+      },
       {
         title: "Client Appreciation – Transport Management System",
         organization: "Shri Guru Transport",
