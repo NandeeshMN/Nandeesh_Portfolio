@@ -26,9 +26,6 @@ This portfolio is designed with modern UI principles, responsiveness, and smooth
 
 - **Animations**: Framer Motion
 
-- **Deployment**: 
-  - Vercel
-
 
 ---
 
