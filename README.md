@@ -5,7 +5,8 @@ I am Nandeesh a MCA graduate with hands-on experience in Python, full stack deve
 
 ---
 
-**Live Portfolio**: https://nandeeshmn.vercel.app/
+**Live Portfolio**: https://nandeeshmn.vercel.app
+
 ## ✨ Key Features
 
 This portfolio is designed with modern UI principles, responsiveness, and smooth interactions:
