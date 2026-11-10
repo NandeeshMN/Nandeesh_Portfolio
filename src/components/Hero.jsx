@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-scroll';
 import { portfolioData } from '../data/portfolioData';
-import MyProfile from "../assets/profile.png";
+import MyProfile from "../assets/photo.jpg";
 
 const Hero = () => {
   const { name, role, shortIntroduction, contact } = portfolioData.personalInfo;
@@ -133,7 +133,7 @@ const Hero = () => {
                 <img 
                   src={MyProfile} 
                   alt={portfolioData.personalInfo.name} 
-                  className="w-full h-full object-cover object-[50%_20%] rounded-full"
+                  className="w-full h-full object-cover object-center rounded-full"
                 />
               </div>
             </div>
