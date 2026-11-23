@@ -5,8 +5,6 @@ I am Nandeesh a MCA graduate with hands-on experience in Python, full stack deve
 
 ---
 
-**Live Portfolio**: https://nandeeshmn.vercel.app
-
 ## ✨ Key Features
 
 This portfolio is designed with modern UI principles, responsiveness, and smooth interactions:
@@ -38,4 +36,5 @@ If you'd like to collaborate or discuss opportunities, feel free to reach out.
 - 📧 Email: *nandeeshmn.mca@gmail.com*
 - 💼 LinkedIn:*https://www.linkedin.com/in/nandeeshmn/*
 - 💻 GitHub: *https://github.com/NandeeshMN/*
+- 🌐 Website: *https://nandeeshmn.vercel.app*
 
